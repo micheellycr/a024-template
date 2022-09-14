@@ -1,1 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: orange;
+    display: grid;
+    grid-template-columns: 10% 1fr 10%;
+    justify-items: end;
+    align-items: center;
+}
+
+footer{
+    background-color: orange;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+main{
+    background-color: rgb(243, 213, 201);
+    display: grid;
+    grid-template-columns: 15% 1fr 15%;
+}
+
+body{
+    display: grid;
+    grid-template-rows: 10% 1fr 10%;
+}
+
+aside{
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
 
